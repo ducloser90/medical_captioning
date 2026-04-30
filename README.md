@@ -79,7 +79,7 @@ medical_captioning/
 ## Step 0 — Clone and Install
 
 ```bash
-git clone <your-repo-url>
+git clone https://github.com/ducloser90/medical_captioning.git
 cd medical_captioning
 pip install -r requirements.txt
 ```
