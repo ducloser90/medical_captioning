@@ -87,7 +87,7 @@ def _download(file_id: str, zip_path: str) -> None:
     url = f"https://drive.google.com/uc?id={file_id}"
     print(f"Downloading dataset from Google Drive → {zip_path}")
     try:
-        gdown.download(url, zip_path, quiet=False)
+        gdown.download(url, zip_path, quiet=False, fuzzy=True)
     except Exception as exc:
         # Clean up a partial download so a retry starts fresh.
         if os.path.isfile(zip_path):
