@@ -1,0 +1,25 @@
+# Core deep-learning stack
+torch>=2.1.0
+transformers==4.40.0
+datasets
+evaluate==0.4.0
+
+# Scoring
+bert-score==0.3.13
+rouge-score==0.1.2
+nltk==3.8.1
+
+# Data & utilities
+numpy==1.26.4
+pandas
+Pillow
+tqdm
+gdown
+absl-py==1.4.0
+packaging
+
+# Hugging Face Hub
+huggingface_hub
+
+# Testing
+pytest
