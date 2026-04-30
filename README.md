@@ -220,8 +220,8 @@ Expected output:
 
 ```
 ── Evaluation Results ──────────────────────────────
-  BERTScore (primary)   : 0.6843
-  ROUGE-1   (secondary) : 0.3127
+  BERTScore (primary)   : 0.6073
+  ROUGE-1   (secondary) : 0.2272
 ```
 
 **BERTScore** (primary) uses `microsoft/deberta-xlarge-mnli` and is downloaded automatically on first run (~900 MB). **ROUGE-1** uses the `evaluate` library and needs no extra downloads.
